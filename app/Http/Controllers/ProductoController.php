@@ -11,11 +11,19 @@ class ProductoController extends Controller
     /**
      * Display a listing of the resource.
      */
+    
+    public function principal()
+    {
+        $producto = Producto::paginate(10);
+        return view('producto.principal'/*, compact('producto')*/);
+    }
+    
     public function index()
     {
         $producto = Producto::paginate(10);
         return view('producto.index', compact('producto'));
     }
+
 
     /**
      * Show the form for creating a new resource.

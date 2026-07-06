@@ -15,4 +15,5 @@ Route::resource('inventario',InventarioController::class);
 
 Route::resource('venta',VentaController::class);
 
-Route::get('/',function(){return view('welcome');})->name('welcome');
+Route::get('', [ProductoController::class, 'principal'])
+    ->name('producto.principal');

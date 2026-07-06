@@ -8,7 +8,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
 </head>
-<body class="bg-[#0C0E10] text-white">
+<body class="bg-[#0C0E10] text-white font-mono text-emerald-400 tracking-tight font-light">
 
     <!--sidebar-->
 
@@ -37,7 +37,7 @@
 
             <nav class="p-4 space-y-2">
 
-            <a class="flex items-center gap-3 bg-[#1d2129] px-4 py-3 rounded-lg text-white" href="{{ route('welcome') }}">
+            <a class="flex items-center gap-3 bg-[#1d2129] px-4 py-3 rounded-lg text-white" href="{{ route('producto.principal') }}">
 
                     <i class="ri-dashboard-line"></i>
 
@@ -67,10 +67,11 @@
 
                     Inventario
 
+                    <!--
                     <span class="ml-auto bg-yellow-700 text-xs px-2 rounded">
                         5
                     </span>
-
+                -->
                 </a>
         </nav>
 
@@ -111,11 +112,11 @@
         <div>
 
             <h1 class="text-3xl font-bold">
-                Dashboard
+                Tienda de regalos
             </h1>
 
             <p class="text-gray-500">
-                lunes, 6 de julio de 2026
+                
             </p>
 
         </div>
