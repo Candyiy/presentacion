@@ -121,12 +121,13 @@
 
         </div>
 
+        <div class="bg-[#161b22] border border-[#2a3039] px-5 py-2 rounded-lg flex items-center gap-3 ml-auto mr-3">
+            carrito
+        </div>
+
         <div class="bg-[#161b22] border border-[#2a3039] px-5 py-2 rounded-lg flex items-center gap-3">
-
             <span class="w-2 h-2 rounded-full bg-green-400"></span>
-
             En línea
-
         </div>
 
     </div>
